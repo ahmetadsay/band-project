@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="flex items-center h-12 justify-between">
+      <h1 class="text-white">BEATLES</h1>
+      <nav>
+        <ul class="flex gap-8">
+          <li>About</li>
+          <li>Albums</li>
+          <li>Leave Some Love</li>
+          <li>Sign Up</li>
+          <li>
+            <button><i class="fas fa-search"></i></button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="relative">
+      <img class="w-full h-[428px]" src="./beatles-1600x900.jpg" />
+
+      <figcaption class="absolute top-[50%] bottom-[50%] left-[80%]">
+        BEATLES
+      </figcaption>
+      <figcaption class="absolute top-[70%] bottom-[50%] left-[80%]">
+        *Lorem ipsum dolor sit.
+      </figcaption>
+    </section>
+    <section class= " flex justify-center items-center">
+        <div class=" flex flex-1 justify-center items-center">
+        <img class="w-full  h-[292px]" src="./beatles-2.jpg " alt="">
+    </div>
+        <div class="flex-1  ">
+        <p class="mx-12">*Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Fuga nobis inventore ad quam neque officia eos laboriosam 
+            unde ut, velit possimus necessitatibus sequi exercitationem p
+            rovident quos! Deleniti dicta odit sed!</p>
+        </div>
+        <hr />
+    </section>
+      <section>
+        <h1 class="text-center text-4xl mt-12">ALBUMS</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ml-32 mt-12">
+          
+              <div class="">
+                <div class="bg-slate-400 w-56 h-64 flex relative">
+                  <div class="bg-center bg-no-repeat bg-contain w-60 h-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" style="background-image: url('./illü.png'); background-color: transparent;"></div>
+                </div>
+                <div class="bg-slate-500 w-56 h-36 flex flex-col items-center text-center gap-2  ">
+                  <h1 class="bg-transparent text-xl mt-4">LOTUS</h1>
+                  <p class="bg-transparent text-xs"> consectetur adipisicing elit. 
+                    Adipisci quos 
+                    </p>
+
+                    <button class="w-36 rounded h-12 bg-white text-black mb-2">BUY NOW</button>
+                </div>
+          
+              </div>
+              <div class="">
+                <div class="bg-slate-400 w-56 h-64 flex relative">
+                  <div class="bg-center bg-no-repeat bg-contain w-60 h-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" style="background-image: url('./illü.png'); background-color: transparent;"></div>
+                </div>
+                <div class="bg-slate-500 w-56 h-36 flex flex-col items-center text-center gap-2  ">
+                  <h1 class="bg-transparent text-xl mt-4">LOTUS</h1>
+                  <p class="bg-transparent text-xs"> consectetur adipisicing elit. 
+                    Adipisci quos 
+                    </p>
+
+                    <button class="w-36 rounded h-12 bg-white text-black mb-2">BUY NOW</button>
+                </div>
+          
+              </div>
+              <div class="">
+                <div class="bg-slate-400 w-56 h-64 flex relative">
+                  <div class="bg-center bg-no-repeat bg-contain w-60 h-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" style="background-image: url('./illü.png'); background-color: transparent;"></div>
+                </div>
+                <div class="bg-slate-500 w-56 h-36 flex flex-col items-center text-center gap-2  ">
+                  <h1 class="bg-transparent text-xl mt-4">LOTUS</h1>
+                  <p class="bg-transparent text-xs"> consectetur adipisicing elit. 
+                    Adipisci quos 
+                    </p>
+
+                    <button class="w-36 rounded h-12 bg-white text-black mb-2">BUY NOW</button>
+                </div>
+          
+              </div>
+             </div >
+       
+      </section>
+     
+      <section class=" flex flex-col items-center justify-center  text-center mt-36">
+        <div>
+        <h1 class="text-4xl tracking-widest">Send Some Love to the Band</h1>
+        <div class="flex items-end justify-center ml-40">
+          <textarea class="px-4 bg-white text-black mt-14" name="" id="" cols="40" rows="7"></textarea>
+          <button class="bg-gray-100 w-36 h-8 rounded text-black ml-3">submit</button>
+        </div>
+      </div>
+        <h2 class="mt-12">MESSAGES RECEIVED FROM FANS ALL AROUND THE GLOBE</h2>
+        
+        <div class="bg-slate-500 w-[28rem] h-80 mt-4 mb-6">
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+    
+    <hr>
+    <section class="flex flex-col items-center text-center justify-center gap-12 mx-44">
+      <h1 class="text-2xl mt-4">DONATE TO THE BAND</h1>
+      <div class="flex gap-8 flex-wrap ">
+        <button class=" rounded bg-slate-500 text-white w-24 h-12"> 1$</button>
+        <button class=" rounded bg-slate-500 text-white w-24 h-12"> 2$</button>
+        <button class=" rounded bg-slate-500 text-white w-24 h-12"> 5$</button>
+        <button class=" rounded bg-slate-500 text-white w-24 h-12"> 10$</button>
+        <button class=" rounded bg-slate-500 text-white w-24 h-12"> 50$</button>
+        <button class=" rounded bg-slate-500 text-white w-24 h-12"> <input class="rounded bg-white w-12 h-10" type="text">$</button>
+     
+      </div>
+      <h1 class="text-2xl">TOTAL OF  <span id="money"> </span>HAS BEEN DONATED TO THE BAND... THANK YOU! </h1>
+    </section>
+    <footer class="flex justify-around mt-32">
+      <h1 class="text-3xl"> BEATLES </h1>
+      <div class="flex gap-4">
+        <p> Tour Dates</p>
+        <p> Request a Show</p>
+        <p> Tickets</p>
+      </div>
+      <div>
+        <div>
+        <p>Follow beatles on social media</p>
+        <div class="flex ">
+          <img src="./icons8-instagram-48.png" alt="" />
+          <img src="./icons8-pinterest-48.png" alt="" />
+          <img src="./icons8-twitter-48.png" alt="" />
+          <img src="./icons8-facebook-48.png" alt="" />
+        </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+  </body>
+</html>
