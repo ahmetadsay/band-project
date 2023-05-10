@@ -100,15 +100,15 @@
         <div>
         <h1 class="text-4xl tracking-widest">Send Some Love to the Band</h1>
         <div class="flex items-end justify-center ml-40">
-          <textarea class="px-4 bg-white text-black mt-14" name="" id="" cols="40" rows="7"></textarea>
-          <button class="bg-gray-100 w-36 h-8 rounded text-black ml-3">submit</button>
+          <textarea  class="px-4 bg-white text-black mt-14" name="" id="input" cols="40" rows="7"></textarea>
+          <button id="submit-button" class="bg-gray-100 w-36 h-8 rounded text-black ml-3">submit</button>
         </div>
       </div>
         <h2 class="mt-12">MESSAGES RECEIVED FROM FANS ALL AROUND THE GLOBE</h2>
         
         <div class="bg-slate-500 w-[28rem] h-80 mt-4 mb-6">
-          <ul>
-            <li></li>
+          <ul class="bg-transparent">
+            <li class="bg-transparent" id="comment">asdasdaasdasd</li>
           </ul>
         </div>
       </section>
@@ -117,16 +117,20 @@
     <section class="flex flex-col items-center text-center justify-center gap-12 mx-44">
       <h1 class="text-2xl mt-4">DONATE TO THE BAND</h1>
       <div class="flex gap-8 flex-wrap ">
-        <button class=" rounded bg-slate-500 text-white w-24 h-12"> 1$</button>
-        <button class=" rounded bg-slate-500 text-white w-24 h-12"> 2$</button>
-        <button class=" rounded bg-slate-500 text-white w-24 h-12"> 5$</button>
-        <button class=" rounded bg-slate-500 text-white w-24 h-12"> 10$</button>
-        <button class=" rounded bg-slate-500 text-white w-24 h-12"> 50$</button>
-        <button class=" rounded bg-slate-500 text-white w-24 h-12"> <input class="rounded bg-white w-12 h-10" type="text">$</button>
-     
+        <button class="rounded bg-slate-500 text-white w-24 h-12" data-value="1">1$</button>
+        <button class="rounded bg-slate-500 text-white w-24 h-12" data-value="2">2$</button>
+        <button class="rounded bg-slate-500 text-white w-24 h-12" data-value="5">5$</button>
+        <button class="rounded bg-slate-500 text-white w-24 h-12" data-value="10">10$</button>
+        <button class="rounded bg-slate-500 text-white w-24 h-12" data-value="50">50$</button>
+        <div class="flex rounded bg-slate-500 text-white w-24 h-12">
+          <input id="money" class="rounded text-black bg-white w-12 h-10" type="number">
+          
+        </div>
       </div>
-      <h1 class="text-2xl">TOTAL OF  <span id="money"> </span>HAS BEEN DONATED TO THE BAND... THANK YOU! </h1>
+      <h1 class="text-2xl">TOTAL OF <span id="render-money">0</span> HAS BEEN DONATED TO THE BAND... THANK YOU! </h1>
     </section>
+    
+    
     <footer class="flex justify-around mt-32">
       <h1 class="text-3xl"> BEATLES </h1>
       <div class="flex gap-4">
